@@ -69,6 +69,19 @@
         <a href="https://github.com/yegor256/eo">EO</a> (experimental).
       </p>
       <p>
+        Principles. These are the design principles behind Elegant Objects:<br/>
+        <ul>
+        <li>No null (<a href="http://www.yegor256.com/2014/05/13/why-null-is-bad.html">why?</a>)</li>
+        <li>No code in constructors (<a href="http://www.yegor256.com/2015/05/07/ctors-must-be-code-free.html">why?</a>)</li>
+        <li>No getters and setters (<a href="http://www.yegor256.com/2014/09/16/getters-and-setters-are-evil.html">why?</a>)</li>
+        <li>No mutable objects (<a href="http://www.yegor256.com/2014/06/09/objects-should-be-immutable.html">why?</a>)</li>
+        <li>No static methods, not even private ones (<a href="http://www.yegor256.com/2017/02/07/private-method-is-new-class.html">why?</a>)</li>
+        <li>No instanceof, type casting, or reflection (<a href="http://www.yegor256.com/2015/04/02/class-casting-is-anti-pattern.html">why?</a>)</li>
+        <li>No public methods without @Override</li>
+        <li>No statements in test methods except assertThat (<a href="http://www.yegor256.com/2017/05/17/single-statement-unit-tests.html">why?</a>)</li>
+	<li>Inheritance implementation <b>only</b> for <i>Decorating Envelopes</i> (<a href="http://www.yegor256.com/2017/01/31/decorating-envelopes.html">why?</a> and why <a href="http://www.yegor256.com/2016/09/13/inheritance-is-procedural.html">don't use inheritance implementation for anything else</a>)</li>
+      </ul>
+      <p>
         Frameworks/libraries:<br/>
         <ul>
         <li><a href="https://github.com/yegor256/takes">Takes</a> (Java)</li>
