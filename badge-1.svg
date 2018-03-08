@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="122" height="20">
+   <linearGradient id="b" x2="0" y2="100%">
+      <stop offset="0" stop-color="#bbb" stop-opacity=".1" />
+      <stop offset="1" stop-opacity=".1" />
+   </linearGradient>
+   <clipPath id="a">
+      <rect width="122" height="20" rx="3" fill="#fff" />
+   </clipPath>
+   <g clip-path="url(#a)">
+      <path fill="#555" d="M0 0h25v20H0z" />
+      <path fill="#4c1" d="M25 0h97v20H25z" />
+      <path fill="url(#b)" d="M0 0h122v20H0z" />
+   </g>
+   <g fill="#fff" text-anchor="middle" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="110">
+      <image x="5" y="3" width="14" height="14" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjUiIGhlaWdodD0iMTI1IiB2ZXJzaW9uPSIxIiBzaGFwZS1yZW5kZXJpbmc9Imdlb21ldHJpY1ByZWNpc2lvbiIgdGV4dC1yZW5kZXJpbmc9Imdlb21ldHJpY1ByZWNpc2lvbiIgaW1hZ2UtcmVuZGVyaW5nPSJvcHRpbWl6ZVF1YWxpdHkiIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIj48cGF0aCBkPSJNNjMgMGMzNCAwIDYyIDI4IDYyIDYzIDAgMzQtMjggNjItNjIgNjItMzUgMC02My0yOC02My02MkMwIDI4IDI4IDAgNjMgMHptMTcgMjBjMiAyIDMgNCA0IDhsMi0xYzAtMSAxLTEgMSAwdjFsLTIgMWMxIDQgMSA4IDEgMTNsMi0xIDEgMWMwIDEtMSAxLTEgMWgtMmMwIDMtMSA1LTEgOC0xIDYtMiAxMy0zIDE5IDEtMSAzLTIgNS00bC0yLTJ2LTFoMmwxIDJjMi0xIDMtMiA1LTMgMS0xIDItMiAzLTJsLTEtMmMtMS0xIDAtMSAwLTIgMCAwIDEgMCAxIDFsMSAyYzMtMiA2LTMgOC0zbDEtMmMxIDAgMS0xIDIgMHYxbC0xIDJoMWMyIDEgNCAyIDUgNWwxLTFzMSAwIDEgMWMxIDAgMCAxIDAgMWgtMWMxIDMgMiA1IDEgOGgxYzEgMCAxIDEgMSAxIDAgMSAwIDEtMSAxaC0yYy0yIDItNCAzLTcgNWwxIDJ2MWgtMmwtMS0ycy0yIDEtMyAxYy0xIDEtMyAxLTUgMnYyYzEgMCAwIDEgMCAxLTEgMC0xIDAtMS0xbC0xLTJjLTMgMS03IDItMTAgM3YzczAgMS0xIDFsLTEtMXYtM2MtMiAxLTQgMS01IDEtMiA3LTQgMTQtNiAxOC0zIDYtNSA5LTggOS0yIDAtNS0zLTctOS0zLTctNy0xOS0xMC0zMS0xIDAtMyAwLTUtMXYzbC0xIDFjLTEgMC0xLTEtMS0xdi0zYy0zLTEtNy0yLTEwLTJsLTEgMWMwIDEgMCAxLTEgMSAwIDAtMS0xIDAtMXYtMmMtMi0xLTQtMS01LTItMSAwLTMtMS0zLTFsLTEgMmgtMnYtMWwxLTJjLTMtMS01LTMtNy01SDljLTEgMC0xIDAtMS0xbDEtMWgxYy0xLTIgMC01IDEtN2wtMS0xcy0xLTEgMC0xYzAtMSAxLTEgMS0xbDEgMWMxLTIgMy00IDUtNWgxbC0xLTJ2LTFoMmwxIDJjMiAxIDUgMSA4IDNsMS0yYzAtMSAxLTEgMS0xIDAgMSAxIDEgMCAybC0xIDJjMSAwIDIgMSAzIDIgMiAxIDMgMiA1IDNsMS0yaDJ2MWwtMiAyYzIgMiA1IDQgNyA2LTEtMy0xLTYtMi04di04aC0ycy0xIDAtMS0xbDEtMWgyYzAtNSAwLTkgMS0xMmwtMi0xdi0xYzAtMSAxLTEgMSAwaDFjMS0zIDMtNSA1LTcgMS0xIDItMiAzLTJsLTEtMnYtMWgybDEgMmMzLTEgNi0yIDktMnYtMmwxLTFjMSAwIDEgMSAxIDF2MmM0IDAgNyAxIDEwIDJsMS0yaDJ2MWwtMSAyYzEgMSAyIDEgMyAyek01OCAzNmMxIDAgMSAxIDEgMXYzczAgMS0xIDFsLTEtMXYtM2wxLTF6bS0zIDE2YzEgMCAxIDEgMSAxdjNzMCAxLTEgMWwtMS0xdi0zbDEtMXptMTYtMTZsMSAxdjNsLTEgMWMtMSAwLTEtMS0xLTF2LTNzMC0xIDEtMXptLTcgNDhjMSAwIDEgMSAxIDF2M3MwIDEtMSAxbC0xLTF2LTNsMS0xem03LTE2czEgMCAxIDF2MmMwIDEtMSAxLTEgMS0xIDAtMSAwLTEtMXYtMmMwLTEgMC0xIDEtMXptLTEzIDBjMSAwIDEgMCAxIDF2MmMwIDEgMCAxLTEgMSAwIDAtMSAwLTEtMXYtMmMwLTEgMS0xIDEtMXptMTUtMTZjMSAwIDEgMSAxIDF2M3MwIDEtMSAxdi00LTF6bS01NCA3YzAtMSAwLTEgMS0xbDIgMWMxIDAgMSAxIDEgMSAwIDEtMSAxLTEgMWwtMy0xdi0xem04NyAxM2gtMWwtMyAxdjFzMCAxIDEgMGgzdi0yem0tMTIgMWgtMWwtMyAxdjFjMCAxIDEgMSAxIDFsMy0xdi0yem04LThjMC0xLTEtMS0xLTFsLTIgMWMtMSAxLTEgMS0xIDJoMmwyLTFzMS0xIDAtMXptLTcxLTVjMC0xIDEtMSAxLTFsMiAxYzEgMSAxIDEgMSAyaC0xbC0zLTF2LTF6bS04LTljMC0xIDAtMSAxIDBsMiAxYzEgMCAxIDEgMSAxLTEgMS0xIDEtMiAwbC0yLTFjLTEgMC0xLTEgMC0xeiIgZmlsbD0iI2NjYyIvPjwvc3ZnPg==" />
+      <text x="205" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="10" />
+      <text x="205" y="140" transform="scale(.1)" textLength="10" />
+      <text x="725" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="870">Elegant Objects</text>
+      <text x="725" y="140" transform="scale(.1)" textLength="870">Elegant Objects</text>
+   </g>
+</svg>
