@@ -27,12 +27,17 @@
     }
     a {
       text-decoration: none;
-    }
+      color: inherit;
+      background: linear-gradient(#000,#000);
+      background-position: 0 0.95em;
+      background-repeat: repeat-x;
+      background-size: 1px 1px;
+      }
     a:visited {
-      color: blue;
+      color: inherit;
     }
     a:hover {
-      text-decoration: underline;
+      text-decoration: none;
     }
     </style>
   </head>
@@ -101,7 +106,7 @@
             (<a href="http://www.yegor256.com/2017/02/07/private-method-is-new-class.html">why?</a>)</li>
           <li>No instanceof, type casting, or reflection
             (<a href="http://www.yegor256.com/2015/04/02/class-casting-is-anti-pattern.html">why?</a>)</li>
-          <li>No public methods without <code>@Override</code></li>
+          <li>No public methods without @Override</li>
           <li>No statements in test methods except assertThat
             (<a href="http://www.yegor256.com/2017/05/17/single-statement-unit-tests.html">why?</a>)</li>
 	        <li>No implementation inheritance
@@ -112,16 +117,26 @@
       <p>
         Frameworks/libraries:
         <ul>
-        <li><a href="https://github.com/yegor256/takes">Takes</a> (Java)</li>
-        <li><a href="https://github.com/yegor256/cactoos">Cactoos</a> (Java)</li>
-        <li><a href="https://github.com/icarus-consulting/Yaapii.Atoms">Atoms</a> (C# port of Cactoos)</li>
-        <li><a href="https://github.com/neonailol/kactoos">Kactoos</a> (Kotlin port of Cactoos)</li>
-        <li><a href="https://github.com/project-avral/oo-atom">OO-Atom</a> (Java)</li>
-        <li><a href="https://github.com/Vatavuk/vgv-xls">Vgv-xls</a> (Java)</li>
-        <li><a href="https://github.com/g4s8/cactoos-crypto">cactoos-crypto (Cryptography extensions for Cactoos)</a></li>
-        <li><a href="https://github.com/VsSekorin/cactoos-math">cactoos-math</a> (Java)</li>
-        <li><a href="https://github.com/yegor256/cactoos-http">cactoos-http</a> (Java)</li>
-	<li><a href="https://github.com/VsSekorin/cactoos-json">cactoos-json</a> (Java)</li>
+        <li><a href="https://github.com/yegor256/takes">Takes</a>
+          by <a href="https://github.com/yegor256">@yegor256</a> (Java)</li>
+        <li><a href="https://github.com/yegor256/cactoos">Cactoos</a>
+          by <a href="https://github.com/yegor256">@yegor256</a>(Java)</li>
+        <li><a href="https://github.com/icarus-consulting/Yaapii.Atoms">Atoms</a>
+          by <a href="https://github.com/icarus-consulting">@icarus-consulting</a> (C# port of Cactoos)</li>
+        <li><a href="https://github.com/neonailol/kactoos">Kactoos</a>
+          by <a href="https://github.com/neonailol">@neonailol</a> (Kotlin port of Cactoos)</li>
+        <li><a href="https://github.com/project-avral/oo-atom">OO-Atom</a>
+          by <a href="https://github.com/project-avral">@project-avral</a> (Java)</li>
+        <li><a href="https://github.com/Vatavuk/vgv-xls">Vgv-xls</a>
+          by <a href="https://github.com/Vatavuk">@Vatavuk</a> (Java)</li>
+        <li><a href="https://github.com/g4s8/cactoos-crypto">cactoos-crypto
+          by <a href="https://github.com/g4s8">@g4s8</a> (Java)</a></li>
+        <li><a href="https://github.com/VsSekorin/cactoos-math">cactoos-math</a>
+          by <a href="https://github.com/VsSekorin">@VsSekorin</a> (Java)</li>
+        <li><a href="https://github.com/yegor256/cactoos-http">cactoos-http</a>
+          by <a href="https://github.com/yegor256">@yegor256</a>(Java)</li>
+	      <li><a href="https://github.com/VsSekorin/cactoos-json">cactoos-json</a>
+          by <a href="https://github.com/VsSekorin">@VsSekorin</a>(Java)</li>
       </ul>
       </p>
       <p>
