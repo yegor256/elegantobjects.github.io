@@ -1,0 +1,33 @@
+@import url('//fonts.googleapis.com/css?family=Inconsolata');
+body {
+  font-family: 'Inconsolata', monospace;
+  font-size: 20px;
+  line-height: 1.3em;
+  padding: 1em;
+}
+section {
+  width: 32em;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.logo {
+  height: 128px;
+  width: 128px;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  background-image: linear-gradient(#000,#000);
+  background-position: 0 0.95em;
+  background-repeat: repeat-x;
+  background-size: 1px 1px;
+  }
+a:visited {
+  color: inherit;
+}
+a:hover {
+  text-decoration: none;
+  background-image: linear-gradient(#268714,#268714);
+  background-size: 2px 2px;
+}
