@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="111px" height="25px" viewBox="0 0 116 25" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <title>Group</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group">
+            <rect id="Rectangle-1" fill="#e28b1e" fill-rule="nonzero" x="0" y="0" width="86.2631579" height="25"/>
+            <rect id="Rectangle-1" fill="#000000" fill-rule="nonzero" x="86" y="0" width="29.75" height="25"/>
+            <g transform="translate(3, 0)">
+            <path fill="#FFFFFF" transform="scale(0.02) translate(4340, 139)" d="M903.034 248.759 C820.25 105.566 665.447 9.152 488.262 9.152 223.991 9.152 9.51 223.633 9.51 487.904S223.99 966.656 488.262 966.656c175.664 0 329.328-94.766 412.625-235.93L480.236 489.34l422.798-240.581z"  />
+            <path fill="#FFFFFF" transform="scale(0.02) translate(4340, 139)" d="M1162.69 489.907c0 98.801-80.1 178.894-178.899 178.894-98.8 0-178.894-80.093-178.894-178.894 0-98.8 80.094-178.894 178.894-178.894 98.799 0 178.899 80.094 178.899 178.894z"/>
+            <path fill="#000000" transform="scale(0.011) translate(7970, 180)" d="M1162.69 489.907c0 98.801-80.1 178.894-178.899 178.894-98.8 0-178.894-80.093-178.894-178.894 0-98.8 80.094-178.894 178.894-178.894 98.799 0 178.899 80.094 178.899 178.894z"/>
+            <path fill="#FFFFFF"  transform="scale(0.003) translate(31837, 1960)" d="M1162.69 489.907c0 98.801-80.1 178.894-178.899 178.894-98.8 0-178.894-80.093-178.894-178.894 0-98.8 80.094-178.894 178.894-178.894 98.799 0 178.899 80.094 178.899 178.894z"/>
+            </g>
+            <text id="We-recommend-Decorate.me" font-family="Verdana-Bold, Verdana" font-size="9" font-weight="bold" fill="#000000">
+                <tspan x="4.10000038" y="11.0999999">We recommend</tspan>
+                <tspan x="4.10000038" y="22.0999999">Decorate.me</tspan>
+            </text>
+            <text id="We-recommend-Decorate.me" font-family="Verdana-Bold, Verdana" font-size="9" font-weight="bold" fill="#FFFFFF">
+                <tspan x="4" y="11">We recommend</tspan>
+                <tspan x="4" y="22">Decorate.me</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
