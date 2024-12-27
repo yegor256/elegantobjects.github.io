@@ -1,4 +1,4 @@
-name: Reject format fans
+name: Check fans format
 
 on:
   pull_request:
@@ -43,5 +43,5 @@ jobs:
         if: failure()
         uses: actions/upload-artifact@v4
         with:
-          name: modified-index-html
+          name: index-modified-html
           path: index.html
