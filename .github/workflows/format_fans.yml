@@ -1,0 +1,47 @@
+name: Check fans format
+
+on:
+  pull_request:
+    branches: [master]
+    paths:
+      - index.html
+
+jobs:
+  check-format:
+    runs-on: ubuntu-24.04
+    steps:
+      # Checkout the repository code
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      # Run the format validation script and check for changes
+      - name: Validate fans list format
+        run: |
+          echo "Checking for changes in fans list format..."
+          git status
+          python format_fans.py
+          CHANGED_FILES=$(git diff --name-only)
+          
+          if echo "$CHANGED_FILES" | grep -q "index.html"; then
+            echo "ERROR: The file 'index.html' has been modified by the formatter."
+            echo "------ Detected Changes ------"
+            git diff
+            echo "--------------------------------"
+            echo "You can download the modified file from the artifact here:"
+            echo "https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+            echo "Alternatively, run the test locally using:"
+            echo "  python format_fans.py"
+            exit 1
+          else
+            echo "Fans list format is valid. No changes detected."
+          fi
+
+      # Upload the modified file if the validation fails
+      - name: Upload modified files
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: index-modified-html
+          path: index.html
