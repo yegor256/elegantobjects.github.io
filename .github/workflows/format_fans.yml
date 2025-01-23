@@ -1,6 +1,6 @@
 name: Check fans format
 
-on:
+'on':
   pull_request:
     branches: [master]
     paths:
@@ -23,7 +23,7 @@ jobs:
           git status
           python format_fans.py
           CHANGED_FILES=$(git diff --name-only)
-          
+
           if echo "$CHANGED_FILES" | grep -q "index.html"; then
             echo "ERROR: The file 'index.html' has been modified by the formatter."
             echo "------ Detected Changes ------"
