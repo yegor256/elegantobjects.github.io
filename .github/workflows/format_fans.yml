@@ -46,7 +46,7 @@ jobs:
       # Upload the modified file if the validation fails
       - name: Upload modified files
         if: failure()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: index-modified-html
           path: index.html
